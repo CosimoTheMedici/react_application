@@ -12,20 +12,21 @@ const About = () => {
         <div className="row content">
           <div className="col-lg-6">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            Capital Hustle software development company delivers IT solutions and services to established companies that need tailored software for 
+            further business growth. With a deep understanding of modern technologies, transparent processes, and strong expertise in business domains, 
+            we implement comprehensive projects and deliver high-end web, mobile, IoT, and SaaS solutions..
             </p>
-            <ul>
+            {/* <ul>
               <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
               <li><i className="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
               <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
+            </ul> */}
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+            Capital Hustle stands out in the background of its competitors since it has managed to become a technological partner for its Clients. 
+            The partner, who delves into a Client’s business challenges, needs,
+             and pain points and provides upscale software solutions that fully meet those needs and all requirements.
             </p>
             <a href="#" className="btn-learn-more">Learn More</a>
           </div>
