@@ -10,10 +10,9 @@ const Skills = () => {
             <img src="assets/img/skills.png" className="img-fluid" alt=""/>
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+            <h3>Built on Robust & Modern Technology</h3>
             <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              We leverage a powerful and secure technology stack to ensure your management system is fast, reliable, and ready for the future.
             </p>
 
             <div className="skills-content">

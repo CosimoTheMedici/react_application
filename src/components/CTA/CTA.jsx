@@ -8,10 +8,10 @@ const CTA = () => {
         <div className="row">
           <div className="col-lg-9 text-center text-lg-start">
             <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p> Ready to transform your business operations? Let's discuss building a custom system that drives your growth.</p>
           </div>
           <div className="col-lg-3 cta-btn-container text-center">
-            <a className="cta-btn align-middle" href="#">Call To Action</a>
+            <a className="cta-btn align-middle" href="#">Schedule a Free Discovery Call</a>
           </div>
         </div>
 

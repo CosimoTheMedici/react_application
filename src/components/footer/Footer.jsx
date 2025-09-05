@@ -9,7 +9,8 @@ const Footer = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>Stay updated with the latest news, insights, and special offers from us.
+               Subscribe to our newsletter and never miss out on updates that matter to you.</p>
             <form action="" method="post">
               <input type="email" name="email"/><input type="submit" value="Subscribe"/>
             </form>
@@ -23,13 +24,13 @@ const Footer = () => {
         <div className="row">
 
           <div className="col-lg-3 col-md-6 footer-contact">
-            <h3>Arsha</h3>
+            <h3>{process.env.SiteName}</h3>
             <p>
               A108 Adam Street <br/>
               New York, NY 535022<br/>
               United States <br/><br/>
-              <strong>Phone:</strong> +1 5589 55488 55<br/>
-              <strong>Email:</strong> info@example.com<br/>
+              <strong>Phone:</strong> {process.env.Phone}<br/>
+              <strong>Email:</strong> {process.env.Email} <br/>
             </p>
           </div>
 
@@ -57,7 +58,7 @@ const Footer = () => {
 
           <div className="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <p>Reach us on these social handles</p>
             <div className="social-links mt-3">
               <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
               <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>

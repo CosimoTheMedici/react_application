@@ -7,7 +7,9 @@ const Team = () => {
 
         <div className="section-title">
           <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>The strength of our management systems lies in the experience and vision of the people 
+            who build them. Our team combines deep technical expertise with a
+             real-world understanding of the industries we serve, ensuring the solutions we deliver are both powerful and practical.</p>
         </div>
 
         <div className="row">
@@ -16,9 +18,12 @@ const Team = () => {
             <div className="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
               <div className="pic"><img src="assets/img/team/team-1.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
-                <h4>Walter White</h4>
+                <h4>Cajetan Ngahu</h4>
                 <span>Chief Executive Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <p>
+                  With over 5 years of experience in software development and business strategy, 
+                  he leads our mission to deliver ERP and management systems that become the backbone of our clients' growth.                   
+                  His expertise ensures that every solution is strategically aligned with long-term business goals.</p>
                 <div className="social">
                   <a href=""><i className="ri-twitter-fill"></i></a>
                   <a href=""><i className="ri-facebook-fill"></i></a>
@@ -33,9 +38,11 @@ const Team = () => {
             <div className="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
               <div className="pic"><img src="assets/img/team/team-2.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
-                <h4>Sarah Jhonson</h4>
+                <h4>Cosmas Thuku</h4>
                 <span>Product Manager</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <p> Cosmas is the architect of the user experience, translating complex business needs into intuitive, functional software. 
+                  He oversees the development of our school, rental,
+                   and sales management systems, ensuring every feature is designed for ease of use, scalability, and seamless payment integration. </p>
                 <div className="social">
                   <a href=""><i className="ri-twitter-fill"></i></a>
                   <a href=""><i className="ri-facebook-fill"></i></a>
@@ -50,9 +57,12 @@ const Team = () => {
             <div className="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
               <div className="pic"><img src="assets/img/team/team-3.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <h4>Janet Bachia</h4>
+                <span>Manager Sales</span>
+                <p>Janef specializes in understanding client challenges and aligning our solutions to meet them. With a background in
+                   [Mention relevant industry, e.g., SaaS or Enterprise Software], she excels at connecting businesses with the 
+                   perfect system—whether it’s for school administration,
+                   sales, or rentals—to drive their efficiency and profitability.</p>
                 <div className="social">
                   <a href=""><i className="ri-twitter-fill"></i></a>
                   <a href=""><i className="ri-facebook-fill"></i></a>
@@ -67,9 +77,11 @@ const Team = () => {
             <div className="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
               <div className="pic"><img src="assets/img/team/team-4.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <h4>Victoria Mwambwire</h4>
+                <span>Cheif Accountant</span>
+                <p>Victoria ensures the financial integrity and sustainability of both our company and the systems we build. 
+                  She brings a critical eye to the financial modules within our ERP and payment integration systems, 
+                  guaranteeing they meet the highest standards of accuracy and security.</p>
                 <div className="social">
                   <a href=""><i className="ri-twitter-fill"></i></a>
                   <a href=""><i className="ri-facebook-fill"></i></a>

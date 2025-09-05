@@ -1,6 +1,7 @@
 import React from 'react'
 
 const About = () => {
+  const Title = process.env.SiteName
   return (
     <section id="about" className="about">
       <div className="container" data-aos="fade-up">
@@ -12,9 +13,9 @@ const About = () => {
         <div className="row content">
           <div className="col-lg-6">
             <p>
-            Capital Hustle software development company delivers IT solutions and services to established companies that need tailored software for 
-            further business growth. With a deep understanding of modern technologies, transparent processes, and strong expertise in business domains, 
-            we implement comprehensive projects and deliver high-end web, mobile, IoT, and SaaS solutions..
+            At {Title}, we are more than just a software development company—we are your trusted technology partner.
+             Our mission is to design and deliver tailored management systems that empower businesses to overcome operational challenges,
+             streamline processes, and achieve sustainable growth.
             </p>
             {/* <ul>
               <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
@@ -24,9 +25,11 @@ const About = () => {
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0">
             <p>
-            Capital Hustle stands out in the background of its competitors since it has managed to become a technological partner for its Clients. 
-            The partner, who delves into a Client’s business challenges, needs,
-             and pain points and provides upscale software solutions that fully meet those needs and all requirements.
+            Unlike many companies that simply write code, we take the time to understand your unique business goals,
+             pain points, and vision. By combining modern technologies with transparent processes and a deep understanding 
+             of business strategy, we create high-quality, scalable solutions that integrate seamlessly
+              into your ecosystem—whether on web, mobile, IoT, or SaaS. With Capital Hustle, you gain a partner
+               committed to driving innovation, efficiency, and long-term success.
             </p>
             <a href="#" className="btn-learn-more">Learn More</a>
           </div>

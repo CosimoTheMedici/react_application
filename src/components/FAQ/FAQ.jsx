@@ -1,68 +1,155 @@
-import React from 'react'
+import React from "react";
 
 const FAQ = () => {
   return (
     <section id="faq" className="faq section-bg">
       <div className="container" data-aos="fade-up">
-
         <div className="section-title">
           <h2>Frequently Asked Questions</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>
+            Have questions about our process or what we can build for you? Here
+            are some of the most common questions we receive.
+          </p>
         </div>
 
         <div className="faq-list">
           <ul>
             <li data-aos="fade-up" data-aos-delay="100">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" className="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" className="collapse show" data-bs-parent=".faq-list">
+              <i className="bx bx-help-circle icon-help"></i>{" "}
+              <a
+                data-bs-toggle="collapse"
+                className="collapse"
+                data-bs-target="#faq-list-1"
+              >
+                {" "}
+                What is the typical development process for a custom management
+                system?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-1"
+                className="collapse show"
+                data-bs-parent=".faq-list"
+              >
                 <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  Our process is collaborative. It begins with a discovery phase
+                  to understand your needs, followed by prototyping,
+                  development, rigorous testing, and finally, deployment and
+                  ongoing support. We keep you involved at every step.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" className="collapsed">Feugiat scelerisque varius morbi enim nunc? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" className="collapse" data-bs-parent=".faq-list">
+              <i className="bx bx-help-circle icon-help"></i>{" "}
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq-list-2"
+                className="collapsed"
+              >
+                Can you integrate with our existing software and payment
+                gateways?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-2"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
                 <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  Absolutely. A key part of our expertise is building systems
+                  that talk to each other. We regularly integrate with
+                  accounting software, existing databases, and all major payment
+                  gateways for a seamless workflow.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" className="collapsed">Dolor sit amet consectetur adipiscing elit? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" className="collapse" data-bs-parent=".faq-list">
+              <i className="bx bx-help-circle icon-help"></i>{" "}
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq-list-3"
+                className="collapsed"
+              >
+                How do you ensure the security of our data, especially with
+                payment information?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-3"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
                 <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  We build security in from the ground up, using industry best
+                  practices like data encryption, secure APIs, and compliance
+                  standards (like PCI DSS for payments) to protect your
+                  sensitive business and customer data.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="400">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" className="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" className="collapse" data-bs-parent=".faq-list">
+              <i className="bx bx-help-circle icon-help"></i>{" "}
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq-list-4"
+                className="collapsed"
+              >
+                Do you provide training and support after the system is
+                launched?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-4"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
                 <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                  Yes. We provide comprehensive training for your team and offer
+                  ongoing maintenance and support packages to ensure your system
+                  continues to perform optimally and can adapt as your business
+                  grows.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="500">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" className="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" className="collapse" data-bs-parent=".faq-list">
+              <i className="bx bx-help-circle icon-help"></i>{" "}
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq-list-5"
+                className="collapsed"
+              >
+                What makes your custom systems better than off-the-shelf
+                software?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-5"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
                 <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                  Off-the-shelf software forces you to adapt your business to
+                  its limitations. Our custom solutions are designed around your
+                  specific processes, eliminating inefficiencies and giving you
+                  a competitive advantage with features built precisely for your
+                  needs.{" "}
                 </p>
               </div>
             </li>
-
           </ul>
         </div>
-
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default FAQ
+export default FAQ;
