@@ -13,9 +13,9 @@ const MainPage = () => {
         <Skills/>
         <Services/>
         <CTA />
-        <Portfolio />
+        {/* <Portfolio /> */}
         <Team />
-        <Pricing />
+        {/* <Pricing /> */}
         <FAQ/>
 
         {/* <Projects/>
