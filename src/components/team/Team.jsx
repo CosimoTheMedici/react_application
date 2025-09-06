@@ -75,7 +75,7 @@ const Team = () => {
 
           <div className="col-lg-6 mt-4">
             <div className="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-              <div className="pic"><img src="assets/img/team/team-12.jpg" className="img-fluid" alt=""/></div>
+              <div className="pic"><img src="assets/img/team/team-10.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
                 <h4>Victoria Mwambwire</h4>
                 <span>Cheif Accountant</span>
