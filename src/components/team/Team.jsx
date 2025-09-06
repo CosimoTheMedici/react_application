@@ -60,7 +60,7 @@ const Team = () => {
                 <h4>Janet Bachia</h4>
                 <span>Manager Sales</span>
                 <p>Janef specializes in understanding client challenges and aligning our solutions to meet them. With a background in
-                   [Mention relevant industry, e.g., SaaS or Enterprise Software], she excels at connecting businesses with the 
+                   SaaS and Enterprise Software, she excels at connecting businesses with the 
                    perfect system—whether it’s for school administration,
                    sales, or rentals—to drive their efficiency and profitability.</p>
                 <div className="social">
