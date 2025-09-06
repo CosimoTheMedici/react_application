@@ -16,7 +16,7 @@ const Team = () => {
 
           <div className="col-lg-6">
             <div className="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div className="pic"><img src="assets/img/team/team-1.jpg" className="img-fluid" alt=""/></div>
+              <div className="pic"><img src="assets/img/team/team-11.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
                 <h4>Cajetan Ngahu</h4>
                 <span>Chief Executive Officer</span>
@@ -36,7 +36,7 @@ const Team = () => {
 
           <div className="col-lg-6 mt-4 mt-lg-0">
             <div className="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div className="pic"><img src="assets/img/team/team-2.jpg" className="img-fluid" alt=""/></div>
+              <div className="pic"><img src="assets/img/team/team-12.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
                 <h4>Cosmas Thuku</h4>
                 <span>Product Manager</span>
@@ -55,7 +55,7 @@ const Team = () => {
 
           <div className="col-lg-6 mt-4">
             <div className="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-              <div className="pic"><img src="assets/img/team/team-3.jpg" className="img-fluid" alt=""/></div>
+              <div className="pic"><img src="assets/img/team/team-13.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
                 <h4>Janet Bachia</h4>
                 <span>Manager Sales</span>
@@ -75,7 +75,7 @@ const Team = () => {
 
           <div className="col-lg-6 mt-4">
             <div className="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-              <div className="pic"><img src="assets/img/team/team-4.jpg" className="img-fluid" alt=""/></div>
+              <div className="pic"><img src="assets/img/team/team-12.jpg" className="img-fluid" alt=""/></div>
               <div className="member-info">
                 <h4>Victoria Mwambwire</h4>
                 <span>Cheif Accountant</span>
